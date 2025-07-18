@@ -12,9 +12,13 @@ import json
 import os
 import sqlite3
 import sys
-from typing import Any, Dict, List, Optional
+import base64
+import tempfile
+import requests
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urlparse
 
-from fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP, Image
 from rich.console import Console
 
 # Use relative imports when running with --directory flag
@@ -787,6 +791,73 @@ def get_database_stats() -> Dict[str, Any]:
             }
     except Exception as e:
         return {"error": f"Error retrieving database stats: {str(e)}"}
+
+@mcp.tool()
+def download_image_from_url(url: str) -> Tuple[Dict[str, Any], Image]:
+    """
+    Download an image from a URL and return it as an Image object.
+    
+    Args:
+        url (str): URL of the image to download
+        
+    Returns:
+        Tuple[Dict[str, Any], Image]: Metadata about the image and the image itself
+    """
+    try:
+        console.print(f"[bold blue]Downloading image from URL: {url}[/]")
+        
+        # Validate URL
+        parsed_url = urlparse(url)
+        if not parsed_url.scheme or not parsed_url.netloc:
+            return ({"error": "Invalid URL format"}, Image(path=""))
+        
+        # Download the image with a timeout
+        response = requests.get(url, timeout=10, stream=True)
+        if response.status_code != 200:
+            return ({"error": f"Failed to download image: HTTP {response.status_code}"}, Image(path=""))
+            
+        # Get content type to verify it's an image
+        content_type = response.headers.get('Content-Type', '')
+        if not content_type.startswith('image/'):
+            return ({"error": f"URL does not contain an image (Content-Type: {content_type})"}, Image(path=""))
+        
+        # Determine file extension based on content type
+        extension = "png"  # Default extension
+        if "jpeg" in content_type or "jpg" in content_type:
+            extension = "jpg"
+        elif "gif" in content_type:
+            extension = "gif"
+        elif "png" in content_type:
+            extension = "png"
+        elif "webp" in content_type:
+            extension = "webp"
+        
+        # Create a temporary file
+        temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=f".{extension}")
+        temp_path = temp_file.name
+        
+        # Write image data to temporary file
+        with open(temp_path, "wb") as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+        
+        console.print(f"[bold green]✓ Image downloaded successfully to: {temp_path}[/]")
+        
+        # Get image metadata
+        size_bytes = os.path.getsize(temp_path)
+        
+        return ({
+            "url": url,
+            "filename": os.path.basename(parsed_url.path) or f"image.{extension}",
+            "content_type": content_type,
+            "size_bytes": size_bytes,
+            "success": True
+        }, Image(path=temp_path))
+        
+    except Exception as e:
+        error_msg = f"[bold red]ERROR downloading image: {str(e)}[/]"
+        console.print(error_msg)
+        return ({"error": f"Error downloading image: {str(e)}"}, Image(path=""))
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")

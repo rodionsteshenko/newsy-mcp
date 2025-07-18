@@ -2,6 +2,29 @@
 
 Newsy MCP is an RSS feed manager with an integrated MCP API that allows you to manage RSS feeds, user preferences, and search articles. This document provides guidance for working with this codebase.
 
+## Environment Setup
+
+Before running any commands, agents should activate the virtual environment:
+
+```bash
+source .venv/bin/activate
+```
+
+After activating the environment, all Python commands should be run with `uv run` instead of `python`:
+
+```bash
+# Instead of: python rss_downloader.py
+uv run rss_downloader.py
+
+# Instead of: python db_init.py  
+uv run db_init.py
+
+# Instead of: python migrate_preferences.py
+uv run migrate_preferences.py
+```
+
+The MCP server command remains the same as it already uses `uv run`.
+
 ## Repository Structure
 
 - `/src/newsy_mcp/` - Main code directory containing all Python files
@@ -34,13 +57,13 @@ The RSS downloader (`rss_downloader.py`) supports:
 - Special handling for feeds like Nature that may not include standard publication dates
 
 Run the downloader with:
-```
-python rss_downloader.py
+```bash
+uv run rss_downloader.py
 ```
 
 For loop mode with a 30-minute interval:
-```
-python rss_downloader.py -i 30
+```bash
+uv run rss_downloader.py -i 30
 ```
 
 ### MCP API Server
@@ -69,38 +92,38 @@ The `migrate_preferences.py` script can parse preferences from a markdown-format
 
 ### Initialize Database
 
-```
-python db_init.py
+```bash
+uv run db_init.py
 ```
 
 ### Migrate RSS Feeds
 
-```
-uv --directory /Users/rodion/newsy_mcp/src/newsy_mcp run migrate_rss_feeds.py
+```bash
+uv run migrate_rss_feeds.py
 ```
 
 ### Migrate User Preferences
 
-```
-python migrate_preferences.py
+```bash
+uv run migrate_preferences.py
 ```
 
 ### Run RSS Downloader
 
 Single run:
-```
-python rss_downloader.py
+```bash
+uv run rss_downloader.py
 ```
 
 Loop mode (runs continuously with specified interval in minutes):
-```
-python rss_downloader.py -i <minutes>
+```bash
+uv run rss_downloader.py -i <minutes>
 ```
 
 ### Run MCP Server
 
-```
-uv --directory /Users/rodion/newsy_mcp/src/newsy_mcp run mcp run rss_server.py
+```bash
+uv run mcp run rss_server.py
 ```
 
 ## Dependencies
