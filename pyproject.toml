@@ -1,0 +1,49 @@
+[project]
+name = "pdf-chef"
+version = "0.1.0"
+description = "LLM chatbot that interfaces with PDFs for technical documentation"
+dependencies = [
+    "click>=8.1.3",
+    "databricks",
+    "databricks.sdk",
+    "langchain>=0.0.267",
+    "langchain-openai>=0.0.2",
+    "langchain-community>=0.0.1",
+    "langchain-chroma>=0.0.1",
+    "langchain-core>=0.0.1",
+    "mcp[cli]>=1.3.0",
+    "openai>=1.6.0",
+    "pandas",
+    "pymupdf>=1.22.5",
+    "python-dotenv>=1.0.0",
+    "rich>=13.4.2",
+    "chromadb>=0.4.13",
+    "tqdm>=4.65.0",
+    "tiktoken>=0.4.0",
+    "mcp>=0.2.0",  # MCP server functionality
+    "fastmcp>=0.1.0",  # FastMCP implementation
+    "pyyaml>=6.0",  # For configuration handling
+]
+requires-python = ">=3.12"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pdf_chef"]
+
+[project.scripts]
+pdf-chef = "pdf_chef.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "I",   # isort
+]
+ignore = ["E501"]  # Ignore line too long errors

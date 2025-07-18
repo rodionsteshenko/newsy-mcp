@@ -1,0 +1,187 @@
+[
+  {
+    "title": "My favorite use-case for AI is writing logs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "My favorite use-case for AI is writing logs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/"
+      }
+    ],
+    "link": "https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/",
+    "published": "Thu, 17 Jul 2025 23:38:48 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      23,
+      38,
+      48,
+      3,
+      198,
+      0
+    ],
+    "comments": "https://news.ycombinator.com/item?id=44599549",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=44599549\">Comments</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "<a href=\"https://news.ycombinator.com/item?id=44599549\">Comments</a>"
+    }
+  },
+  {
+    "title": "ChatGPT agent: bridging research and action",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "ChatGPT agent: bridging research and action"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://openai.com/index/introducing-chatgpt-agent/"
+      }
+    ],
+    "link": "https://openai.com/index/introducing-chatgpt-agent/",
+    "published": "Thu, 17 Jul 2025 17:01:47 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      17,
+      1,
+      47,
+      3,
+      198,
+      0
+    ],
+    "comments": "https://news.ycombinator.com/item?id=44595492",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=44595492\">Comments</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "<a href=\"https://news.ycombinator.com/item?id=44595492\">Comments</a>"
+    }
+  },
+  {
+    "title": "Mistral Releases Deep Research, Voice, Projects in Le Chat",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Mistral Releases Deep Research, Voice, Projects in Le Chat"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://mistral.ai/news/le-chat-dives-deep"
+      }
+    ],
+    "link": "https://mistral.ai/news/le-chat-dives-deep",
+    "published": "Thu, 17 Jul 2025 15:00:18 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      15,
+      0,
+      18,
+      3,
+      198,
+      0
+    ],
+    "comments": "https://news.ycombinator.com/item?id=44594156",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=44594156\">Comments</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "<a href=\"https://news.ycombinator.com/item?id=44594156\">Comments</a>"
+    }
+  },
+  {
+    "title": "Perfume reviews",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Perfume reviews"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://gwern.net/blog/2025/perfume"
+      }
+    ],
+    "link": "https://gwern.net/blog/2025/perfume",
+    "published": "Thu, 17 Jul 2025 00:16:17 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      0,
+      16,
+      17,
+      3,
+      198,
+      0
+    ],
+    "comments": "https://news.ycombinator.com/item?id=44588319",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=44588319\">Comments</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "<a href=\"https://news.ycombinator.com/item?id=44588319\">Comments</a>"
+    }
+  },
+  {
+    "title": "Hand: open-source Robot Hand",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Hand: open-source Robot Hand"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://github.com/pollen-robotics/AmazingHand"
+      }
+    ],
+    "link": "https://github.com/pollen-robotics/AmazingHand",
+    "published": "Thu, 17 Jul 2025 12:08:38 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      12,
+      8,
+      38,
+      3,
+      198,
+      0
+    ],
+    "comments": "https://news.ycombinator.com/item?id=44592413",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=44592413\">Comments</a>",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "<a href=\"https://news.ycombinator.com/item?id=44592413\">Comments</a>"
+    }
+  }
+]

@@ -1,0 +1,4 @@
+- Add summary
+- Simplify metadata
+- Remove ingest from MCP
+- Simplify generate_document_id

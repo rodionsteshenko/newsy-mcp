@@ -1,0 +1,628 @@
+[DEBUG] Database initialization completed successfully
+[DEBUG] Using 20 feeds from config file
+[DEBUG] 
+Gathering articles from feeds...
+[DEBUG] Cutoff time (48.0h ago): 2025-07-16T02:12:15.376136+00:00
+[DEBUG] Processing feed: https://buttondown.com/ainews/rss
+[DEBUG] Found 10 articles in https://buttondown.com/ainews/rss
+[DEBUG] Article timestamp from feed: 2025-04-25T08:14:18+00:00
+[DEBUG] Article timestamp from feed: 2025-04-19T10:44:39+00:00
+[DEBUG] Article timestamp from feed: 2025-04-18T07:06:17+00:00
+[DEBUG] Article timestamp from feed: 2025-04-17T08:17:29+00:00
+[DEBUG] Article timestamp from feed: 2025-04-16T10:55:06+00:00
+[DEBUG] Article timestamp from feed: 2025-04-15T10:16:26+00:00
+[DEBUG] Article timestamp from feed: 2025-04-12T01:07:39+00:00
+[DEBUG] Article timestamp from feed: 2025-04-11T05:53:38+00:00
+[DEBUG] Article timestamp from feed: 2025-04-10T06:31:18+00:00
+[DEBUG] Article timestamp from feed: 2025-04-10T00:51:30+00:00
+[DEBUG] Processing feed: https://www.engadget.com/rss.xml
+[DEBUG] Found 50 articles in https://www.engadget.com/rss.xml
+[DEBUG] Article already exists in database: https://www.engadget.com/apps/it-only-took-two-years-for-vimeo-to-realize-deleting-all-of-its-tv-apps-was-dumb-212724092.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/smartphones/iphone-17-pro-max-and-air-everything-we-know-about-apples-new-phones-153024282.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/streaming/like-clockwork-peacock-is-raising-subscription-prices-again-203644730.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/science/space/someone-paid-53-million-for-a-piece-of-mars-191502853.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/cybersecurity/google-is-suing-the-badbox-20-botnet-group-185812719.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/unicodes-new-emoji-refuses-to-put-respect-on-bigfoots-name-184412935.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/ai/google-expands-ai-mode-with-extra-features-for-search-205252812.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/tv-movies/the-official-tron-ares-trailer-riffs-on-big-tech-and-features-a-returning-jeff-bridges-181232528.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/one-of-my-favorite-steam-early-access-games-is-now-available-on-switch-and-ps5-174539016.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/spotifys-audiobooks-add-on-is-now-available-to-some-premium-subscribers-165030551.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/general/amazons-ai-push-is-undermining-its-sustainability-goals-160156136.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/smartphones/best-smartphones-140004900.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/mark-zuckerberg-and-other-meta-bigwigs-just-agreed-to-a-settlement-in-8-billion-suit-154513933.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/streaming/netflix-takes-a-leap-of-faith-on-an-assassins-creed-series-153958591.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/science/space/trumps-defunding-of-nasa-would-be-catastrophic-153053020.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/transportation/evs/ubers-latest-robotaxi-plan-involves-20000-lucid-evs-145943920.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/social-media/jack-dorsey-backs-an-open-source-development-collective-with-10-million-140052825.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/virtuos-the-studio-behind-oblivion-remastered-is-laying-off-around-270-employees-135722222.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/transportation/another-big-car-company-gives-up-on-hydrogen-133011978.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/social-media/tiktoks-latest-feature-will-help-songwriters-show-off-their-work-131512204.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/ai/adobe-firefly-can-now-generate-sound-effects-from-your-audio-cues-130008172.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/deals/this-ninja-dual-zone-air-fryer-is-36-percent-off-right-now-142051313.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/smartphones/samsung-galaxy-z-fold-7-review-foldable-phone-nirvana-for-a-price-123004636.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/apples-emoji-game-is-now-out-for-news-subscribers-in-the-us-and-canada-121505775.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/slack-is-getting-a-host-of-new-ai-tools-120023607.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/samsung-chairman-cleared-of-fraud-by-south-koreas-top-court-113043402.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/roblox-is-adding-an-age-estimation-feature-for-teens-110047092.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/ar-vr/best-vr-accessories-150021126.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/the-fcc-plans-to-ban-chinese-technology-in-undersea-cables-215207536.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/nintendo/donkey-kong-bananzas-creators-reflect-on-the-games-path-to-delightful-destruction-201600462.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/social-media/threads-is-testing-facebook-account-sign-ups-191214734.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/cyberpunk-2077s-latest-update-brings-vrr-to-consoles-and-introduces-an-autodrive-mode-181933646.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/mobile/smartphones/the-next-made-by-google-event-better-known-as-the-pixel-launch-is-set-for-august-20-162832319.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/reddit-is-back-online-after-a-brief-outage-161522867.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/steam-now-bans-games-that-violate-the-rules-and-standards-of-payment-processors-and-banks-164222173.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/streaming/hbo-confirms-the-last-of-us-season-3-will-arrive-in-2027-161150871.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/cyberpunk-2077-ultimate-edition-comes-to-the-mac-on-july-17-130047453.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/tv-movies/the-final-season-of-stranger-things-now-has-an-action-packed-trailer-151355646.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/google-adds-ai-generated-summaries-to-discover-144341141.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/deals/the-airpods-4-are-still-on-sale-at-a-near-record-low-price-141631755.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/apps/our-favorite-budgeting-app-is-50-percent-off-right-now-141516676.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/computing/laptops/best-chromebooks-160054646.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/tv-movies/the-live-action-legend-of-zelda-movie-has-cast-its-princess-and-hero-115830552.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/big-tech/apples-%E2%82%AC143-billion-irish-tax-break-case-is-officially-over-113755771.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/entertainment/streaming/best-streaming-services-154527042.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/audio/speakers/best-soundbars-143041791.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/gaming/video-games-weekly-who-put-all-these-videos-in-my-games-232445265.html?src=rss
+[DEBUG] Article already exists in database: https://www.engadget.com/computing/accessories/razer-revives-its-egpu-line-with-a-thunderbolt-5-dock-221526901.html?src=rss
+[DEBUG] Article timestamp from feed: 2025-07-16T01:40:49+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T00:15:20+00:00
+[DEBUG] Processing feed: https://www.theverge.com/rss/index.xml
+[DEBUG] Found 10 articles in https://www.theverge.com/rss/index.xml
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709530/nintendo-switch-online-playtest-program-july-august-invitations-application
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709117/subaru-uncharted-ev-specs-toyota
+[DEBUG] Article already exists in database: https://www.theverge.com/politics/709483/crypto-week-genius-clarity-act-trump
+[DEBUG] Article already exists in database: https://www.theverge.com/21289209/best-apple-watch-deals
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709288/netflix-q2-2025-earningsdouble-ad-revenue
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709334/istore-recall-uscpsc-magnetic-wireless-power-bank
+[DEBUG] Article already exists in database: https://www.theverge.com/tech/709338/apple-airpods-4-active-noise-cancellation-deal-sale
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709301/anker-nano-charging-station-usb-retractable
+[DEBUG] Article already exists in database: https://www.theverge.com/news/709315/peacock-price-hike-nbcuniversal
+[DEBUG] Article already exists in database: https://www.theverge.com/tech/709193/razer-pokemon-pc-gaming-accessories-keyboard-mouse-headset
+[DEBUG] Processing feed: https://gizmodo.com/rss
+[DEBUG] Found 20 articles in https://gizmodo.com/rss
+[DEBUG] Article already exists in database: https://gizmodo.com/suzzanna-the-queen-of-black-magic-is-a-colorful-portrait-of-a-cult-horror-legend-2000630250
+[DEBUG] Article already exists in database: https://gizmodo.com/love-hypothesis-movie-reylo-daisy-ridley-tom-bateman-2000630979
+[DEBUG] Article already exists in database: https://gizmodo.com/the-big-ev-tax-credit-mystery-2000631033
+[DEBUG] Article already exists in database: https://gizmodo.com/of-course-dan-da-dan-season-2s-big-okarun-evil-eye-fight-has-a-jojo-anime-reference-2000630129
+[DEBUG] Article already exists in database: https://gizmodo.com/chatgpt-agent-wants-you-to-hand-over-full-control-of-your-computer-2000630925
+[DEBUG] Article already exists in database: https://gizmodo.com/trump-jr-s-amazon-for-guns-business-is-firing-blanks-2000630763
+[DEBUG] Article already exists in database: https://gizmodo.com/flesh-eating-bacteria-have-already-killed-four-people-in-florida-this-year-2000630931
+[DEBUG] Article already exists in database: https://gizmodo.com/a-surge-of-earthquakes-in-alaska-is-raising-red-flags-2000630930
+[DEBUG] Article already exists in database: https://gizmodo.com/uber-is-going-all-in-on-robotaxis-2000630906
+[DEBUG] Article already exists in database: https://gizmodo.com/arcane-season-2-gets-a-lavish-home-release-just-in-time-for-emmy-season-2000630806
+[DEBUG] Article already exists in database: https://gizmodo.com/star-trek-strange-new-worlds-season-3-premiere-recap-2000630467
+[DEBUG] Article already exists in database: https://gizmodo.com/rfk-jr-begs-canada-to-pardon-400-ostriches-so-that-we-can-understand-them-2000630795
+[DEBUG] Article already exists in database: https://gizmodo.com/coca-cola-wont-confirm-trumps-claim-that-its-switching-to-sugar-cane-2000630813
+[DEBUG] Article already exists in database: https://gizmodo.com/more-signs-rfk-jr-wants-to-be-your-president-in-2028-2000630731
+[DEBUG] Article already exists in database: https://gizmodo.com/android-phones-can-detect-earthquakes-before-the-ground-starts-shaking-2000629636
+[DEBUG] Article already exists in database: https://gizmodo.com/the-odyssey-sold-tickets-a-year-in-advance-and-things-got-crazy-2000630734
+[DEBUG] Article already exists in database: https://gizmodo.com/80-years-after-the-trinity-atomic-blast-new-mexicos-downwinders-may-finally-see-reparations-2000630811
+[DEBUG] Article timestamp from feed: 2025-07-17T22:14:47+00:00
+[DEBUG] Article already exists in database: https://gizmodo.com/boeings-starliner-wont-get-to-fly-this-year-but-the-wonky-spacecraft-isnt-dead-yet-2000630694
+[DEBUG] Article already exists in database: https://gizmodo.com/our-best-view-yet-of-interstellar-comet-3i-atlas-2000630705
+[DEBUG] Processing feed: https://kotaku.com/rss
+[DEBUG] Found 51 articles in https://kotaku.com/rss
+[DEBUG] Article already exists in database: https://kotaku.com/robocop-rogue-city-unfinished-business-expansion-review-1851786534
+[DEBUG] Article already exists in database: https://kotaku.com/pubg-moble-player-hitler-henry-apology-name-change-1851786533
+[DEBUG] Article already exists in database: https://kotaku.com/civilization-7-civ-6-free-epic-summer-sale-patch-1-2-3-1851786526
+[DEBUG] Article already exists in database: https://kotaku.com/mcdonalds-xxl-mega-fan-fries-meal-malaysia-price-size-1851786525
+[DEBUG] Article already exists in database: https://kotaku.com/tron-3-ares-jared-leto-trailer-official-nin-new-song-1851786513
+[DEBUG] Article already exists in database: https://kotaku.com/rematch-tutorials-stamina-barrier-walls-camera-fov-1851786518
+[DEBUG] Article already exists in database: https://kotaku.com/fretless-wrath-riffson-deck-builder-music-rpg-review-1851786514
+[DEBUG] Article already exists in database: https://kotaku.com/rune-factory-romance-options-matsuri-love-llike-dislike-1851786506
+[DEBUG] Article already exists in database: https://kotaku.com/persona-5-phantom-x-atlus-black-wings-statement-rewards-1851786505
+[DEBUG] Article already exists in database: https://kotaku.com/helldivers-2-warp-bunker-control-group-warbond-1851786493
+[DEBUG] Article already exists in database: https://kotaku.com/ps5-psn-playstation-store-ai-slop-brainrot-junk-spam-1851786494
+[DEBUG] Article already exists in database: https://kotaku.com/mortal-kombat-2-karl-urban-johnny-cage-first-trailer-1851786495
+[DEBUG] Article already exists in database: https://kotaku.com/netflix-assassins-creed-tv-show-ubisoft-plot-date-1851786489
+[DEBUG] Article already exists in database: https://kotaku.com/crash-bandicoot-naughty-dog-vicarious-visions-jump-1851786482
+[DEBUG] Article already exists in database: https://kotaku.com/onexsugar-android-switch-ds-handheld-snapdragon-gen-3-1851786481
+[DEBUG] Article already exists in database: https://kotaku.com/pokemon-go-remote-raid-chat-gps-drift-niantic-ban-1851786470
+[DEBUG] Article already exists in database: https://kotaku.com/pokemon-tcg-cards-mega-evolution-leak-lucario-latias-1851786474
+[DEBUG] Article already exists in database: https://kotaku.com/the-institute-stephen-king-tv-series-mgm-from-lost-1851786460
+[DEBUG] Article already exists in database: https://kotaku.com/black-bolt-white-flare-pokemon-tcg-scarlet-violet-1851786465
+[DEBUG] Article already exists in database: https://kotaku.com/off-the-grid-steam-neill-blomkamp-game-1851786461
+[DEBUG] Article already exists in database: https://kotaku.com/avowed-steam-deck-run-verified-valve-obsidian-1851786452
+[DEBUG] Article already exists in database: https://kotaku.com/hoppers-trailer-pixar-animation-teaser-inside-out-2-1851786456
+[DEBUG] Article timestamp from feed: 2025-07-17T01:55:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-17T01:08:34+00:00
+[DEBUG] Article timestamp from feed: 2025-07-17T00:35:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-17T00:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T23:18:04+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T22:55:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T22:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T22:14:59+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T21:55:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T21:20:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T20:55:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T20:50:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T20:38:05+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T20:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T19:30:00+00:00
+[DEBUG] Article already exists in database: https://kotaku.com/steam-valve-adult-content-sex-games-online-safety-act-1851786391
+[DEBUG] Article already exists in database: https://kotaku.com/last-of-us-season-3-4-abby-kaitlyn-dever-hbo-max-mazin-1851786392
+[DEBUG] Article already exists in database: https://kotaku.com/dune-awakening-iron-farming-ore-craft-refinery-water-1851786388
+[DEBUG] Article already exists in database: https://kotaku.com/donkey-kong-bananza-reviews-metacritic-roundup-switch-2-1851786384
+[DEBUG] Article already exists in database: https://kotaku.com/nintendo-switch-2-drag-x-drive-basketball-free-demo-1851786377
+[DEBUG] Article already exists in database: https://kotaku.com/2025-best-games-monster-hunter-split-fiction-avowed-1851767689
+[DEBUG] Article already exists in database: https://kotaku.com/candy-crush-ai-king-microsoft-layoffs-xbox-farm-saga-1851786283
+[DEBUG] Article already exists in database: https://kotaku.com/zelda-movie-nintendo-lead-actors-benjamin-ainsworth-1851786373
+[DEBUG] Article already exists in database: https://kotaku.com/pokemon-tcg-pocket-trading-update-shinedust-trade-token-1851786369
+[DEBUG] Article already exists in database: https://kotaku.com/deus-ex-human-revolution-gog-drm-sale-1851786362
+[DEBUG] Article already exists in database: https://kotaku.com/dune-awakening-tax-ornithopter-fuel-cell-arrakeen-harko-1851786325
+[DEBUG] Article timestamp from feed: 2025-07-16T01:20:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T01:10:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-16T00:45:00+00:00
+[DEBUG] Processing feed: https://www.polygon.com/rss/index.xml
+[DEBUG] Found 10 articles in https://www.polygon.com/rss/index.xml
+[DEBUG] Article already exists in database: https://www.polygon.com/review/612240/no-sleep-for-kaname-date-ai-the-somnium-files-review
+[DEBUG] Article already exists in database: https://www.polygon.com/donkey-kong-bananza-guides-dk/613695/lagoon-layer-banandium-gem-golden-banana-locations-list-map-all
+[DEBUG] Article already exists in database: https://www.polygon.com/donkey-kong-bananza-guides-dk/612406/skills-list-all-points-how-to-unlock
+[DEBUG] Article already exists in database: https://www.polygon.com/gaming/613588/donkey-kong-bananza-ending-dk-timeline
+[DEBUG] Article already exists in database: https://www.polygon.com/nintendo-switch-2/613673/donkey-kong-bananza-butt-history-switch-2
+[DEBUG] Article already exists in database: https://www.polygon.com/movies/613677/superman-suicide-squad-injury-to-eye-james-gunns-trope
+[DEBUG] Article already exists in database: https://www.polygon.com/mortal-kombat/613556/mortal-kombat-2-movie-trailer
+[DEBUG] Article already exists in database: https://www.polygon.com/impressions/613650/donkey-kong-bananza-switch-2-launch-day-impressions
+[DEBUG] Article already exists in database: https://www.polygon.com/news/613659/assassins-creed-netflix-show-ubisoft-halo-writer
+[DEBUG] Article already exists in database: https://www.polygon.com/star-trek/613641/strange-new-worlds-who-is-rhys-darby-playing
+[DEBUG] Processing feed: https://hnrss.org/frontpage
+[DEBUG] Found 20 articles in https://hnrss.org/frontpage
+[DEBUG] Article already exists in database: https://apnews.com/article/louisiana-coastal-restoration-gulf-oil-spill-affaae2877bf250f636a633a14fbd0c7
+[DEBUG] Article already exists in database: https://pweb.cfa.harvard.edu/news/astronomers-discover-rare-distant-object-sync-neptune
+[DEBUG] Article already exists in database: https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/
+[DEBUG] Article already exists in database: https://news.njit.edu/mammals-evolved-ant-eaters-12-times-dinosaur-age-study-finds
+[DEBUG] Article timestamp from feed: 2025-07-18T04:10:03+00:00
+[DEBUG] Article timestamp from feed: 2025-07-18T03:53:09+00:00
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
+[DEBUG] Article already exists in database: https://news.ycombinator.com/item?id=44597668
+[DEBUG] Article already exists in database: https://www.404media.co/inside-ices-supercharged-facial-recognition-app-of-200-million-images/
+[DEBUG] Article already exists in database: https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/
+[DEBUG] Article already exists in database: https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025
+[DEBUG] Article already exists in database: https://tsx.is/
+[DEBUG] Article already exists in database: https://blog.jxmo.io/p/there-is-only-one-model
+[DEBUG] Article already exists in database: https://news.ok.ubc.ca/2025/07/15/ubco-researchers-create-3d-printed-living-lung-tissue/
+[DEBUG] Article already exists in database: https://openai.com/index/introducing-chatgpt-agent/
+[DEBUG] Article already exists in database: https://mistral.ai/news/le-chat-dives-deep
+[DEBUG] Article already exists in database: https://michaelbastos.com/blog/why-self-taught-engineers-often-outperform
+[DEBUG] Article already exists in database: https://github.com/pollen-robotics/AmazingHand
+[DEBUG] Article already exists in database: https://github.com/Ferki-git-creator/TurboStitchGIF-HeaderOnly-Fast-ZeroAllocation-PlatformIndependent-Embedded-C-GIF-Decoder
+[DEBUG] Article already exists in database: https://gwern.net/blog/2025/perfume
+[DEBUG] Processing feed: https://news.ycombinator.com/rss
+[DEBUG] Found 30 articles in https://news.ycombinator.com/rss
+[DEBUG] Article already exists in database: https://newsletter.vickiboykis.com/archive/my-favorite-use-case-for-ai-is-writing-logs/
+[DEBUG] Article already exists in database: https://openai.com/index/introducing-chatgpt-agent/
+[DEBUG] Article already exists in database: https://mistral.ai/news/le-chat-dives-deep
+[DEBUG] Article already exists in database: https://gwern.net/blog/2025/perfume
+[DEBUG] Article already exists in database: https://github.com/pollen-robotics/AmazingHand
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
+[DEBUG] Article already exists in database: https://news.njit.edu/mammals-evolved-ant-eaters-12-times-dinosaur-age-study-finds
+[DEBUG] Article already exists in database: https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/
+[DEBUG] Article timestamp from feed: 2025-07-15T10:39:26+00:00
+[DEBUG] Article already exists in database: https://blog.jxmo.io/p/there-is-only-one-model
+[DEBUG] Article already exists in database: https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025
+[DEBUG] Article timestamp from feed: 2025-07-14T21:15:41+00:00
+[DEBUG] Article already exists in database: https://michaelbastos.com/blog/why-self-taught-engineers-often-outperform
+[DEBUG] Article already exists in database: https://pweb.cfa.harvard.edu/news/astronomers-discover-rare-distant-object-sync-neptune
+[DEBUG] Article already exists in database: https://apnews.com/article/louisiana-coastal-restoration-gulf-oil-spill-affaae2877bf250f636a633a14fbd0c7
+[DEBUG] Article timestamp from feed: 2025-07-18T04:10:03+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T08:57:02+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T11:21:28+00:00
+[DEBUG] Article already exists in database: https://tsx.is/
+[DEBUG] Article timestamp from feed: 2025-07-18T03:53:09+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T07:36:19+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T04:01:26+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T14:47:20+00:00
+[DEBUG] Article already exists in database: https://news.ycombinator.com/item?id=44597668
+[DEBUG] Article timestamp from feed: 2025-07-14T19:50:17+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T03:51:06+00:00
+[DEBUG] Article already exists in database: https://www.404media.co/inside-ices-supercharged-facial-recognition-app-of-200-million-images/
+[DEBUG] Article already exists in database: https://news.ok.ubc.ca/2025/07/15/ubco-researchers-create-3d-printed-living-lung-tissue/
+[DEBUG] Article timestamp from feed: 2025-07-14T19:01:44+00:00
+[DEBUG] Article timestamp from feed: 2025-07-17T17:00:26+00:00
+[DEBUG] Processing feed: http://rss.slashdot.org/Slashdot/slashdot
+[DEBUG] Found 15 articles in http://rss.slashdot.org/Slashdot/slashdot
+[DEBUG] Article already exists in database: https://tech.slashdot.org/story/25/07/17/2350256/ukrainian-hackers-claim-to-have-destroyed-major-russian-drone-makers-entire-network?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://tech.slashdot.org/story/25/07/17/2329217/dictionarycom-devastated-paid-users-by-abruptly-deleting-saved-word-lists?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://yro.slashdot.org/story/25/07/17/2321219/house-passes-historic-crypto-bill-regulating-stablecoins?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://it.slashdot.org/story/25/07/17/2049256/google-spots-tailored-backdoor-malware-aimed-at-sonicwall-appliances?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://yro.slashdot.org/story/25/07/17/2044218/new-russian-law-criminalizes-online-searches-for-controversial-content?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://news.slashdot.org/story/25/07/17/2029207/news-publishers-take-paywall-blocker-12ftio-offline?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://yro.slashdot.org/story/25/07/17/2017244/meta-investors-mark-zuckerberg-reach-settlement-to-end-8-billion-trial-over-facebook-privacy-litigation?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://developers.slashdot.org/story/25/07/17/1918220/robinhood-ceo-says-majority-of-companys-new-code-written-by-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://news.slashdot.org/story/25/07/17/1829201/mozilla-ships-webgpu-in-firefox-141-catching-up-to-chromes-2023-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://news.slashdot.org/story/25/07/17/188217/britains-bankrupt-universities-are-hunting-for-cheaper-models?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://it.slashdot.org/story/25/07/17/1726216/openai-debuts-ai-agent-that-controls-browsers-to-automate-shopping-presentations?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://slashdot.org/story/25/07/17/1635202/sony-is-still-stubborn-about-the-size-of-its-cameras?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://yro.slashdot.org/story/25/07/17/1548245/judge-allows-nationwide-class-action-against-anthropic-over-alleged-piracy-of-7-million-books-for-ai-training?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://science.slashdot.org/story/25/07/17/1455213/cancer-death-rates-fall-one-third-in-us-since-1990s-as-prevention-efforts-take-hold?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Article already exists in database: https://tech.slashdot.org/story/25/07/17/145222/uber-plans-20000-robotaxis-in-six-year-rollout-with-lucid-and-nuro?utm_source=rss1.0mainlinkanon&utm_medium=feed
+[DEBUG] Processing feed: https://machinelearningmastery.com/blog/feed
+[DEBUG] Found 10 articles in https://machinelearningmastery.com/blog/feed
+[DEBUG] Article timestamp from feed: 2025-07-11T17:00:16+00:00
+[DEBUG] Article timestamp from feed: 2025-07-10T14:57:51+00:00
+[DEBUG] Article timestamp from feed: 2025-07-08T17:00:29+00:00
+[DEBUG] Article timestamp from feed: 2025-07-07T19:16:43+00:00
+[DEBUG] Article timestamp from feed: 2025-07-04T17:14:51+00:00
+[DEBUG] Article timestamp from feed: 2025-07-04T08:33:11+00:00
+[DEBUG] Article timestamp from feed: 2025-07-02T17:00:35+00:00
+[DEBUG] Article timestamp from feed: 2025-07-01T08:19:28+00:00
+[DEBUG] Article timestamp from feed: 2025-06-30T17:00:58+00:00
+[DEBUG] Article timestamp from feed: 2025-06-30T06:45:34+00:00
+[DEBUG] Processing feed: http://news.mit.edu/rss/topic/artificial-intelligence2
+[DEBUG] Found 50 articles in http://news.mit.edu/rss/topic/artificial-intelligence2
+[DEBUG] Article already exists in database: https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717
+[DEBUG] Article already exists in database: https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716
+[DEBUG] Article already exists in database: https://news.mit.edu/2025/more-efficiently-studying-complex-treatment-interactions-0716
+[DEBUG] Article timestamp from feed: 2025-07-11T23:40:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-10T01:50:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-10T01:35:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-08T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-07T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-07T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-04T23:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-07-03T00:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-30T19:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-27T22:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-27T22:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-25T18:55:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-23T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-21T01:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-18T01:25:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-18T01:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-18T01:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-16T23:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-12T01:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-11T23:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-11T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-11T00:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-10T23:25:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-10T20:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-10T01:40:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-10T01:10:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-10T00:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-03T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-03T00:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-02T23:50:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-02T19:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-29T01:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-29T01:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-27T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-22T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-22T01:35:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T01:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-15T19:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-14T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-14T01:35:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-06T21:15:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-06T01:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-03T00:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-01T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-23T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-23T09:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-18T09:00:00+00:00
+[DEBUG] Processing feed: https://deepmind.com/blog/feed/basic/
+[DEBUG] Found 100 articles in https://deepmind.com/blog/feed/basic/
+[DEBUG] Article timestamp from feed: 2025-06-25T18:59:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-24T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-17T21:03:39+00:00
+[DEBUG] Article timestamp from feed: 2025-06-17T21:01:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-13T18:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-12T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-06-03T22:15:47+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-20T14:45:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-14T19:59:00+00:00
+[DEBUG] Article timestamp from feed: 2025-05-06T20:06:55+00:00
+[DEBUG] Article timestamp from feed: 2025-05-06T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-24T20:01:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-18T00:02:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-15T22:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-14T22:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-02T18:31:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-02T18:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-03-25T22:00:36+00:00
+[DEBUG] Article timestamp from feed: 2025-03-12T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-03-12T19:58:00+00:00
+[DEBUG] Article timestamp from feed: 2025-03-12T13:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-02-25T23:02:12+00:00
+[DEBUG] Article timestamp from feed: 2025-02-05T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-02-04T21:41:00+00:00
+[DEBUG] Article timestamp from feed: 2024-12-17T20:29:00+00:00
+[DEBUG] Article timestamp from feed: 2024-12-16T22:01:16+00:00
+[DEBUG] Article timestamp from feed: 2024-12-11T20:30:40+00:00
+[DEBUG] Article timestamp from feed: 2024-12-05T22:45:00+00:00
+[DEBUG] Article timestamp from feed: 2024-12-04T20:59:00+00:00
+[DEBUG] Article timestamp from feed: 2024-12-04T19:23:00+00:00
+[DEBUG] Article timestamp from feed: 2024-11-20T23:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-11-19T00:57:00+00:00
+[DEBUG] Article timestamp from feed: 2024-10-30T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-10-23T21:53:00+00:00
+[DEBUG] Article timestamp from feed: 2024-10-09T16:45:00+00:00
+[DEBUG] Article timestamp from feed: 2024-09-26T19:08:00+00:00
+[DEBUG] Article timestamp from feed: 2024-09-24T21:03:03+00:00
+[DEBUG] Article timestamp from feed: 2024-09-18T19:30:06+00:00
+[DEBUG] Article timestamp from feed: 2024-09-12T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-09-05T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-08-23T00:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-08-02T15:50:58+00:00
+[DEBUG] Article timestamp from feed: 2024-07-31T20:59:19+00:00
+[DEBUG] Article timestamp from feed: 2024-07-25T20:29:00+00:00
+[DEBUG] Article timestamp from feed: 2024-07-19T15:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-06-17T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-20T12:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-17T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-14T22:58:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-14T22:57:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-14T22:56:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-08T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-03T18:39:00+00:00
+[DEBUG] Article timestamp from feed: 2024-04-19T15:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-03-19T21:03:00+00:00
+[DEBUG] Article timestamp from feed: 2024-03-13T19:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-02-21T18:06:00+00:00
+[DEBUG] Article timestamp from feed: 2024-02-15T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-02-08T18:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-01-17T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-01-04T16:39:00+00:00
+[DEBUG] Article timestamp from feed: 2024-01-02T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-12-22T18:30:00+00:00
+[DEBUG] Article timestamp from feed: 2023-12-14T21:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-12-08T20:01:00+00:00
+[DEBUG] Article timestamp from feed: 2023-12-06T20:13:00+00:00
+[DEBUG] Article timestamp from feed: 2023-11-29T21:04:00+00:00
+[DEBUG] Article timestamp from feed: 2023-11-16T12:20:00+00:00
+[DEBUG] Article timestamp from feed: 2023-11-15T15:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-11-14T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-10-31T18:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-10-19T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-10-03T20:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-09-19T18:37:00+00:00
+[DEBUG] Article timestamp from feed: 2023-08-29T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-07-28T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-07-21T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-07-20T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-07-17T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-07-11T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-06-20T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-06-16T19:55:00+00:00
+[DEBUG] Article timestamp from feed: 2023-06-14T19:51:00+00:00
+[DEBUG] Article timestamp from feed: 2023-06-12T19:41:00+00:00
+[DEBUG] Article timestamp from feed: 2023-06-07T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-05-25T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-04-27T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-04-24T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2023-04-20T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-12-08T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-12-06T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-12-01T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-11-25T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-11-23T05:00:00+00:00
+[DEBUG] Article timestamp from feed: 2022-11-22T05:00:00+00:00
+[DEBUG] Processing feed: https://towardsdatascience.com/feed
+[DEBUG] Processing feed: https://bair.berkeley.edu/blog/feed.xml
+[DEBUG] Found 10 articles in https://bair.berkeley.edu/blog/feed.xml
+[DEBUG] Article timestamp from feed: 2025-04-11T15:00:00+00:00
+[DEBUG] Article timestamp from feed: 2025-04-08T15:30:00+00:00
+[DEBUG] Article timestamp from feed: 2025-03-25T14:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-11-12T14:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-09-20T14:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-08-28T20:30:00+00:00
+[DEBUG] Article timestamp from feed: 2024-07-20T14:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-05-30T04:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-03-21T14:00:00+00:00
+[DEBUG] Article timestamp from feed: 2024-03-11T14:00:00+00:00
+[DEBUG] Processing feed: https://www.sciencedaily.com/newsfeeds.htm
+[DEBUG] Found 0 articles in https://www.sciencedaily.com/newsfeeds.htm
+[DEBUG] Processing feed: https://www.technologyreview.com/feed/
+[DEBUG] Found 10 articles in https://www.technologyreview.com/feed/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/17/1119943/finding-value-from-ai-agents-from-day-one/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/17/1120391/how-to-run-an-llm-on-your-laptop/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/17/1120366/the-download-three-person-babies-and-tracking-ai-readiness-in-the-us/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/17/1120293/air-conditioning-safety-europe/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/16/1120285/babies-born-trial-of-three-person-ivf/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/16/1120233/these-four-charts-show-where-ai-companies-could-go-next-in-the-us/
+[DEBUG] Article already exists in database: https://www.technologyreview.com/2025/07/16/1120240/the-download-veo-3s-subtitles-problem-and-the-future-of-our-planets-resources/
+[DEBUG] Article timestamp from feed: 2025-07-15T22:36:36+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T20:32:33+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T19:40:32+00:00
+[DEBUG] Processing feed: https://www.nature.com/nature/rss/current
+[DEBUG] Found 75 articles in https://www.nature.com/nature/rss/current
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02228-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02229-y
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02225-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02260-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02278-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02269-4
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02243-0
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02271-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02264-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09352-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09355-7
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02277-4
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09291-6
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09263-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09256-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09259-6
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09278-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09214-5
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09261-y
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09238-x
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09240-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09273-8
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09217-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09288-1
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09252-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09271-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09257-8
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09250-1
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09264-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09227-0
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09279-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09163-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09293-4
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09119-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09201-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09260-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02201-w
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02197-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02209-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02058-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02060-5
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02275-6
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-01848-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02059-y
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02245-y
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02057-0
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02276-5
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02113-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02250-1
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02208-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02279-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02215-4
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02234-1
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02062-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02218-1
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02216-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02219-0
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02217-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02227-0
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02241-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02237-y
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02220-7
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02214-5
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02200-x
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02212-7
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02196-4
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09353-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09367-3
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02213-6
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02211-8
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02236-z
+[DEBUG] Article already exists in database: https://www.nature.com/articles/s41586-025-09249-8
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02210-9
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-01984-2
+[DEBUG] Article already exists in database: https://www.nature.com/articles/d41586-025-02198-2
+[DEBUG] Processing feed: https://arxiv.org/list/cs/recent
+[DEBUG] Found 0 articles in https://arxiv.org/list/cs/recent
+[DEBUG] Processing feed: https://www.kdnuggets.com/feed
+[DEBUG] Found 10 articles in https://www.kdnuggets.com/feed
+[DEBUG] Article already exists in database: https://www.kdnuggets.com/build-your-own-simple-data-pipeline-with-python-and-docker
+[DEBUG] Article already exists in database: https://www.kdnuggets.com/10-surprising-things-you-can-do-with-pythons-collections-module
+[DEBUG] Article already exists in database: https://www.kdnuggets.com/the-lifecycle-of-feature-engineering-from-raw-data-to-model-ready-inputs
+[DEBUG] Article already exists in database: https://www.kdnuggets.com/10-python-math-statistical-analysis-one-liners
+[DEBUG] Article timestamp from feed: 2025-07-15T21:00:41+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T19:00:26+00:00
+[DEBUG] Article timestamp from feed: 2025-07-15T17:00:56+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T21:00:23+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T19:00:01+00:00
+[DEBUG] Article timestamp from feed: 2025-07-14T16:49:37+00:00
+[DEBUG] Processing feed: https://techcrunch.com/feed/
+[DEBUG] Found 20 articles in https://techcrunch.com/feed/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/utopian-city-california-forever-announces-huge-tech-manufacturing-park/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/anthropic-tightens-usage-limits-for-claude-code-without-telling-users/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/microsoft-is-buying-tons-of-carbon-removal-from-xprize-startup-vaulted-deep/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/hadrian-raises-260m-to-build-out-automated-factories-for-space-and-defense-parts/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/after-raising-over-3m-popular-vc-backed-beauty-brand-ami-cole-is-shuttering/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/twitch-starts-testing-vertical-video-streams/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/meta-appoints-generative-ai-vp-to-run-threads/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/rivian-restarting-work-on-its-georgia-factory-emails-show/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/substack-raises-100m-from-chernin-group-andreessen-horowitz-skims-ceo-and-more/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/hackers-are-trying-to-steal-passwords-and-sensitive-data-from-users-of-signal-clone/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/boulevard-raises-80m-to-power-self-care-boom-driven-by-botox-and-glp-1-surge/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/zuckerberg-and-meta-investors-reach-settlement-in-8b-privacy-case/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/mistrals-le-chat-chatbot-gets-a-productivity-push-with-new-deep-research-mode/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/confident-security-the-signal-for-ai-comes-out-of-stealth-with-4-2m/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/north-korean-hackers-blamed-for-record-spike-in-crypto-thefts-in-2025/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/spotify-expands-audiobook-access-to-family-plan-members-for-the-first-time/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/uaes-deal-to-buy-nvidia-ai-chips-reportedly-on-hold/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/uber-makes-multi-million-dollar-investment-in-lucid-nuro-to-build-robotaxi-service/
+[DEBUG] Article already exists in database: https://techcrunch.com/2025/07/17/lovable-becomes-a-unicorn-with-200m-series-a-just-8-months-after-launch/
+[DEBUG] 
+Found 21 new articles to download
+[DEBUG] Skipping previously failed URL: https://gizmodo.com/avengers-veracity-trap-preview-abrams-marvel-2000630698
+[DEBUG] Skipping previously failed URL: https://kotaku.com/youtuber-retro-gaming-jail-time-italy-once-were-nerd-1851786451
+[DEBUG] Skipping previously failed URL: https://kotaku.com/subnautica-2-lawsuit-krafton-unknown-worlds-delay-1851786439
+[DEBUG] Skipping previously failed URL: https://kotaku.com/chess-cheaters-100k-banned-monthly-chess-com-anal-beads-1851786443
+[DEBUG] Skipping previously failed URL: https://kotaku.com/fantastic-four-first-steps-john-malkovich-red-ghost-cut-1851786444
+[DEBUG] Skipping previously failed URL: https://kotaku.com/oblivion-remastered-virtuos-layoffs-cyberpunk-patch-1851786435
+[DEBUG] Skipping previously failed URL: https://kotaku.com/fc-26-fifa-trailer-reveal-complaints-soccer-ea-sports-1851786431
+[DEBUG] Skipping previously failed URL: https://kotaku.com/giant-ps5-summer-sale-best-biggest-deals-psn-store-2025-1851786420
+[DEBUG] Skipping previously failed URL: https://kotaku.com/ubisoft-charlie-yves-guillemot-tencent-far-cry-7-1851786421
+[DEBUG] Skipping previously failed URL: https://kotaku.com/destiny-2-edge-fate-matterspark-kelper-metroid-ball-1851786415
+[DEBUG] Skipping previously failed URL: https://kotaku.com/jurassic-world-rebirth-scarlett-johansson-mahershala-al-1851786416
+[DEBUG] Skipping previously failed URL: https://kotaku.com/stranger-things-season-5-finale-trailer-teaser-netflix-1851786407
+[DEBUG] Skipping previously failed URL: https://kotaku.com/cyberpunk-2077-2-3-update-patch-stream-autopilot-cars-1851786358
+[DEBUG] Skipping previously failed URL: https://kotaku.com/rune-factory-guardians-azuma-farm-gold-monsters-teeth-1851786408
+[DEBUG] Skipping previously failed URL: https://kotaku.com/ready-or-not-censorship-update-console-mod-uncensored-1851786403
+[DEBUG] Skipping previously failed URL: https://kotaku.com/supergrok-ai-ani-rudi-chad-companion-waifu-nazi-1851786393
+[DEBUG] Attempting to download content from: https://www.washingtonpost.com/technology/2025/07/17/23andme-bankruptcy-privacy/
+[DEBUG] Processing URL: https://www.washingtonpost.com/technology/2025/07/17/23andme-bankruptcy-privacy/
+[DEBUG] Skipping previously failed URL: https://www.cbc.ca/news/canada/hamilton/basic-income-mcmaster-report-1.5485729
+[DEBUG] Attempting to download content from: https://www.washingtonpost.com/technology/2025/07/17/23andme-bankruptcy-privacy/
+[DEBUG] Processing URL: https://www.washingtonpost.com/technology/2025/07/17/23andme-bankruptcy-privacy/
+[DEBUG] Skipping previously failed URL: https://www.cbc.ca/news/canada/hamilton/basic-income-mcmaster-report-1.5485729
+[DEBUG] Attempting to download content from: https://www.ycombinator.com/companies/rejoy-health/jobs/DCsxNgv-software-engineer
+[DEBUG] Processing URL: https://www.ycombinator.com/companies/rejoy-health/jobs/DCsxNgv-software-engineer
+[DEBUG] Scraping URL: https://www.ycombinator.com/companies/rejoy-health/jobs/DCsxNgv-software-engineer
+[DEBUG] Attempting crawl4ai extraction...
+[DEBUG] Successfully extracted 15629 chars with crawl4ai
+[DEBUG] Skipping image extraction
+[DEBUG] Successfully scraped 15629 characters and 0 relevant images
+[DEBUG] Successfully downloaded 15629 chars from https://www.ycombinator.com/companies/rejoy-health/jobs/DCsxNgv-software-engineer
+[DEBUG] Successfully stored: Rejoy Health (YC W21) Is Hiring
+[DEBUG] Article already exists in database: https://www.ycombinator.com/companies/rejoy-health/jobs/DCsxNgv-software-engineer
+  Success: Rejoy Health (YC W21) Is Hiring... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100%
+[DEBUG] 
+Feed processing summary at UTC: 2025-07-18T02:12:37.004060+00:00
+[DEBUG] Your local time (Eastern): 2025-07-17T22:12:37.004060-04:00
+                                                     Recent Failed URLs                                                      
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┓
+┃ URL                                                   ┃ Error Message                    ┃ Attempts ┃ Last Attempt        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━┩
+│ https://www.washingtonpost.com/technology/2025/07/... │ Download timed out               │        2 │ 2025-07-18 02:12:33 │
+│ https://www.cbc.ca/news/canada/hamilton/basic-inco... │ Failed to extract any content    │        1 │ 2025-07-18 02:01:18 │
+│ https://kotaku.com/supergrok-ai-ani-rudi-chad-comp... │ maximum recursion depth exceeded │        1 │ 2025-07-18 02:00:45 │
+│ https://kotaku.com/rune-factory-guardians-azuma-fa... │ maximum recursion depth exceeded │        1 │ 2025-07-18 02:00:44 │
+│ https://kotaku.com/ready-or-not-censorship-update-... │ maximum recursion depth exceeded │        1 │ 2025-07-18 02:00:44 │
+└───────────────────────────────────────────────────────┴──────────────────────────────────┴──────────┴─────────────────────┘
+
+                                                           RSS Feed Processing Summary                                                           
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Feed URL                                               ┃ Total Articles ┃ New Articles ┃ Failed ┃ Error    ┃ Start Time (UTC)                 ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ https://buttondown.com/ainews/rss                      │             10 │            0 │      0 │          │ 2025-07-18T02:12:15.376203+00:00 │
+│ https://www.engadget.com/rss.xml                       │             50 │            0 │      0 │          │ 2025-07-18T02:12:17.554453+00:00 │
+│ https://www.theverge.com/rss/index.xml                 │             10 │            0 │      0 │          │ 2025-07-18T02:12:18.010353+00:00 │
+│ https://gizmodo.com/rss                                │             20 │            0 │      1 │          │ 2025-07-18T02:12:18.336178+00:00 │
+│ https://kotaku.com/rss                                 │             51 │            0 │     15 │          │ 2025-07-18T02:12:18.475942+00:00 │
+│ https://www.polygon.com/rss/index.xml                  │             10 │            0 │      0 │          │ 2025-07-18T02:12:18.774714+00:00 │
+│ https://hnrss.org/frontpage                            │             20 │            0 │      2 │          │ 2025-07-18T02:12:19.179569+00:00 │
+│ https://news.ycombinator.com/rss                       │             30 │            1 │      2 │          │ 2025-07-18T02:12:19.665639+00:00 │
+│ http://rss.slashdot.org/Slashdot/slashdot              │             15 │            0 │      0 │          │ 2025-07-18T02:12:20.028694+00:00 │
+│ https://machinelearningmastery.com/blog/feed           │             10 │            0 │      0 │          │ 2025-07-18T02:12:20.130652+00:00 │
+│ http://news.mit.edu/rss/topic/artificial-intelligence2 │             50 │            0 │      0 │          │ 2025-07-18T02:12:20.202057+00:00 │
+│ https://deepmind.com/blog/feed/basic/                  │            100 │            0 │      0 │          │ 2025-07-18T02:12:20.458336+00:00 │
+│ https://towardsdatascience.com/feed                    │              0 │            0 │      0 │ HTTP 403 │ 2025-07-18T02:12:21.089841+00:00 │
+│ https://bair.berkeley.edu/blog/feed.xml                │             10 │            0 │      0 │          │ 2025-07-18T02:12:21.171514+00:00 │
+│ https://www.sciencedaily.com/newsfeeds.htm             │              0 │            0 │      0 │          │ 2025-07-18T02:12:21.713986+00:00 │
+│ https://www.technologyreview.com/feed/                 │             10 │            0 │      0 │          │ 2025-07-18T02:12:22.115662+00:00 │
+│ https://www.nature.com/nature/rss/current              │             75 │            0 │      0 │          │ 2025-07-18T02:12:22.399108+00:00 │
+│ https://arxiv.org/list/cs/recent                       │              0 │            0 │      0 │          │ 2025-07-18T02:12:23.008763+00:00 │
+│ https://www.kdnuggets.com/feed                         │             10 │            0 │      0 │          │ 2025-07-18T02:12:23.446489+00:00 │
+│ https://techcrunch.com/feed/                           │             20 │            0 │      0 │          │ 2025-07-18T02:12:23.789386+00:00 │
+└────────────────────────────────────────────────────────┴────────────────┴──────────────┴────────┴──────────┴──────────────────────────────────┘
+╭───────────────────────────────────────────────────────────────────── Summary ─────────────────────────────────────────────────────────────────────╮
+│ Total new articles: 1                                                                                                                             │
+│ Total failed: 20                                                                                                                                  │
+│                                                                                                                                                   │
+│ Last 24 hours: 229 articles                                                                                                                       │
+│                                                                                                                                                   │
+│ Process completed at UTC: 2025-07-18T02:12:37.004060+00:00                                                                                        │
+│ Your local time (Eastern): 2025-07-17T22:12:37.004060-04:00                                                                                       │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
