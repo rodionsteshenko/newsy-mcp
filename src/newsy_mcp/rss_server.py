@@ -479,7 +479,7 @@ def set_active_feeds(feeds: List[str]) -> Dict[str, Any]:
 #
 
 @mcp.tool()
-def get_recent_articles(limit: int = 20, offset: int = 0) -> Dict[str, Any]:
+def get_recent_articles(limit: int = 20, offset: int = 0, exclude_displayed: bool = False) -> Dict[str, Any]:
     """
     Get a list of recently downloaded articles.
     
@@ -493,17 +493,33 @@ def get_recent_articles(limit: int = 20, offset: int = 0) -> Dict[str, Any]:
     try:
         with get_db() as conn:
             cursor = conn.cursor()
-            cursor.execute(
-                """
-                SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
-                       a.content_html2text, an.tags, an.summary, an.relevance
-                FROM articles a
-                LEFT JOIN article_analysis an ON a.id = an.article_id
-                ORDER BY a.timestamp DESC
-                LIMIT ? OFFSET ?
-                """,
-                (limit, offset)
-            )
+            
+            if exclude_displayed:
+                cursor.execute(
+                    """
+                    SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
+                           a.content_html2text, an.tags, an.summary, an.relevance
+                    FROM articles a
+                    LEFT JOIN article_analysis an ON a.id = an.article_id
+                    LEFT JOIN displayed_articles da ON a.id = da.article_id
+                    WHERE da.article_id IS NULL
+                    ORDER BY a.timestamp DESC
+                    LIMIT ? OFFSET ?
+                    """,
+                    (limit, offset)
+                )
+            else:
+                cursor.execute(
+                    """
+                    SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
+                           a.content_html2text, an.tags, an.summary, an.relevance
+                    FROM articles a
+                    LEFT JOIN article_analysis an ON a.id = an.article_id
+                    ORDER BY a.timestamp DESC
+                    LIMIT ? OFFSET ?
+                    """,
+                    (limit, offset)
+                )
             
             articles = []
             for row in cursor.fetchall():
@@ -610,7 +626,7 @@ def get_article_by_id(article_id: int) -> Dict[str, Any]:
         return {"error": f"Error retrieving article: {str(e)}"}
 
 @mcp.tool()
-def search_articles(query: str, limit: int = 10) -> Dict[str, Any]:
+def search_articles(query: str, limit: int = 10, exclude_displayed: bool = False) -> Dict[str, Any]:
     """
     Search articles using keyword matching.
     
@@ -625,18 +641,35 @@ def search_articles(query: str, limit: int = 10) -> Dict[str, Any]:
         with get_db() as conn:
             cursor = conn.cursor()
             search_term = f"%{query}%"
-            cursor.execute(
-                """
-                SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
-                       a.content_html2text, an.tags, an.summary, an.relevance
-                FROM articles a
-                LEFT JOIN article_analysis an ON a.id = an.article_id
-                WHERE a.title LIKE ? OR a.content_html2text LIKE ?
-                ORDER BY a.timestamp DESC
-                LIMIT ?
-                """,
-                (search_term, search_term, limit)
-            )
+            
+            if exclude_displayed:
+                cursor.execute(
+                    """
+                    SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
+                           a.content_html2text, an.tags, an.summary, an.relevance
+                    FROM articles a
+                    LEFT JOIN article_analysis an ON a.id = an.article_id
+                    LEFT JOIN displayed_articles da ON a.id = da.article_id
+                    WHERE (a.title LIKE ? OR a.content_html2text LIKE ?)
+                    AND da.article_id IS NULL
+                    ORDER BY a.timestamp DESC
+                    LIMIT ?
+                    """,
+                    (search_term, search_term, limit)
+                )
+            else:
+                cursor.execute(
+                    """
+                    SELECT a.id, a.title, a.url, a.feed_domain, a.timestamp, 
+                           a.content_html2text, an.tags, an.summary, an.relevance
+                    FROM articles a
+                    LEFT JOIN article_analysis an ON a.id = an.article_id
+                    WHERE a.title LIKE ? OR a.content_html2text LIKE ?
+                    ORDER BY a.timestamp DESC
+                    LIMIT ?
+                    """,
+                    (search_term, search_term, limit)
+                )
             
             articles = []
             for row in cursor.fetchall():
@@ -668,7 +701,7 @@ def search_articles(query: str, limit: int = 10) -> Dict[str, Any]:
         return {"error": f"Error searching articles: {str(e)}"}
 
 @mcp.tool()
-def search_articles_by_vector(query: str, limit: int = 10) -> Dict[str, Any]:
+def search_articles_by_vector(query: str, limit: int = 10, exclude_displayed: bool = False) -> Dict[str, Any]:
     """
     Search articles using vector similarity (semantic search).
     
@@ -684,13 +717,24 @@ def search_articles_by_vector(query: str, limit: int = 10) -> Dict[str, Any]:
         if not vector_store:
             return {"error": "Vector store is not initialized"}
             
-        # Perform similarity search
-        results = vector_store.similarity_search(query, k=limit)
+        # Perform similarity search with higher similarity threshold
+        results = vector_store.similarity_search(query, k=limit, similarity_threshold=0.9)
         
         articles = []
+        displayed_articles = set()
+        
+        # Get list of displayed article IDs if needed
+        if exclude_displayed:
+            with get_db() as conn:
+                cursor = conn.cursor()
+                cursor.execute(
+                    "SELECT article_id FROM displayed_articles"
+                )
+                displayed_articles = {row[0] for row in cursor.fetchall()}
+        
         for result in results:
             article_id = result.get("metadata", {}).get("article_id")
-            if article_id:
+            if article_id and (not exclude_displayed or article_id not in displayed_articles):
                 # Fetch full article data
                 with get_db() as conn:
                     cursor = conn.cursor()
@@ -858,6 +902,157 @@ def download_image_from_url(url: str) -> Tuple[Dict[str, Any], Image]:
         error_msg = f"[bold red]ERROR downloading image: {str(e)}[/]"
         console.print(error_msg)
         return ({"error": f"Error downloading image: {str(e)}"}, Image(path=""))
+
+@mcp.tool()
+def mark_article_displayed(article_id: int, session_id: str = None) -> Dict[str, Any]:
+    """
+    Mark an article as displayed by the agent.
+    
+    Args:
+        article_id (int): ID of the article to mark as displayed
+        session_id (str, optional): Identifier for the agent session
+        
+    Returns:
+        Dict[str, Any]: Result of the operation
+    """
+    try:
+        with get_db() as conn:
+            cursor = conn.cursor()
+            
+            # Verify article exists
+            cursor.execute(
+                "SELECT id FROM articles WHERE id = ?",
+                (article_id,)
+            )
+            if not cursor.fetchone():
+                return {"error": f"Article not found with ID: {article_id}"}
+                
+            # Insert or update displayed status
+            cursor.execute(
+                """
+                INSERT INTO displayed_articles (article_id, status, agent_session_id)
+                VALUES (?, 'displayed', ?)
+                ON CONFLICT(article_id) DO UPDATE SET 
+                    status = 'displayed',
+                    display_time = CURRENT_TIMESTAMP,
+                    agent_session_id = ?
+                """,
+                (article_id, session_id, session_id)
+            )
+            
+            conn.commit()
+            
+            return {
+                "success": True,
+                "message": f"Article {article_id} marked as displayed",
+                "article_id": article_id,
+                "status": "displayed"
+            }
+    except Exception as e:
+        return {"error": f"Error marking article as displayed: {str(e)}"}
+
+@mcp.tool()
+def mark_article_ignored(article_id: int, session_id: str = None) -> Dict[str, Any]:
+    """
+    Mark an article as ignored by the agent.
+    
+    Args:
+        article_id (int): ID of the article to mark as ignored
+        session_id (str, optional): Identifier for the agent session
+        
+    Returns:
+        Dict[str, Any]: Result of the operation
+    """
+    try:
+        with get_db() as conn:
+            cursor = conn.cursor()
+            
+            # Verify article exists
+            cursor.execute(
+                "SELECT id FROM articles WHERE id = ?",
+                (article_id,)
+            )
+            if not cursor.fetchone():
+                return {"error": f"Article not found with ID: {article_id}"}
+                
+            # Insert or update ignored status
+            cursor.execute(
+                """
+                INSERT INTO displayed_articles (article_id, status, agent_session_id)
+                VALUES (?, 'ignored', ?)
+                ON CONFLICT(article_id) DO UPDATE SET 
+                    status = 'ignored',
+                    display_time = CURRENT_TIMESTAMP,
+                    agent_session_id = ?
+                """,
+                (article_id, session_id, session_id)
+            )
+            
+            conn.commit()
+            
+            return {
+                "success": True,
+                "message": f"Article {article_id} marked as ignored",
+                "article_id": article_id,
+                "status": "ignored"
+            }
+    except Exception as e:
+        return {"error": f"Error marking article as ignored: {str(e)}"}
+
+@mcp.tool()
+def get_displayed_article_ids() -> Dict[str, Any]:
+    """
+    Get a list of article IDs that have been displayed or ignored.
+    
+    Returns:
+        Dict[str, Any]: Lists of displayed and ignored article IDs
+    """
+    try:
+        with get_db() as conn:
+            cursor = conn.cursor()
+            
+            # Get displayed articles
+            cursor.execute(
+                "SELECT article_id FROM displayed_articles WHERE status = 'displayed'"
+            )
+            displayed_ids = [row[0] for row in cursor.fetchall()]
+            
+            # Get ignored articles
+            cursor.execute(
+                "SELECT article_id FROM displayed_articles WHERE status = 'ignored'"
+            )
+            ignored_ids = [row[0] for row in cursor.fetchall()]
+            
+            return {
+                "displayed_ids": displayed_ids,
+                "ignored_ids": ignored_ids,
+                "total_displayed": len(displayed_ids),
+                "total_ignored": len(ignored_ids)
+            }
+    except Exception as e:
+        return {"error": f"Error getting displayed article IDs: {str(e)}"}
+
+@mcp.tool()
+def reset_displayed_status() -> Dict[str, Any]:
+    """
+    Reset all displayed and ignored article statuses.
+    This allows articles to be shown again that were previously displayed or ignored.
+    
+    Returns:
+        Dict[str, Any]: Result of the operation
+    """
+    try:
+        with get_db() as conn:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM displayed_articles")
+            conn.commit()
+            
+            return {
+                "success": True,
+                "message": "All displayed and ignored article statuses have been reset"
+            }
+    except Exception as e:
+        return {"error": f"Error resetting displayed article statuses: {str(e)}"}
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")

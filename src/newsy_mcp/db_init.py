@@ -135,6 +135,19 @@ def init_database(db_path: str = "newsy.db") -> None:
                 UNIQUE(url)
             )
         """)
+        
+        # Create displayed_articles table to track viewed/ignored articles
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS displayed_articles (
+                id INTEGER PRIMARY KEY,
+                article_id INTEGER NOT NULL,
+                status TEXT NOT NULL,  -- 'displayed' or 'ignored'
+                display_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                agent_session_id TEXT,
+                FOREIGN KEY(article_id) REFERENCES articles(id),
+                UNIQUE(article_id)
+            )
+        """)
 
         # Create performance indexes
         conn.execute(
@@ -160,6 +173,12 @@ def init_database(db_path: str = "newsy.db") -> None:
         )
         conn.execute(
             "CREATE INDEX IF NOT EXISTS idx_rss_feeds_is_active ON rss_feeds(is_active)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_displayed_articles_article_id ON displayed_articles(article_id)"
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_displayed_articles_status ON displayed_articles(status)"
         )
 
         conn.commit()
